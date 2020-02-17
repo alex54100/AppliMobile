@@ -23,7 +23,7 @@ export default class Login extends React.Component {
 
     tryLogin() {
         if (this.state.email.length === 0 || this.state.password.length === 0) {
-            Alert.alert("Fill both the inputs please");
+            Alert.alert("Remplissez les deux champs s'il vous plaît");
         }
         if (this.state.isSignup) {
             firebase
@@ -32,7 +32,7 @@ export default class Login extends React.Component {
                 .then(args => {
                     console.log(args);
                     AsyncStorage.setItem("userId", args.user.uid);
-                    this.props.navigation.navigate("TabNav");
+                    this.props.navigation.navigate("Home");
                 })
                 .catch(error => Alert.alert("Error", error.message));
         } else {
@@ -42,36 +42,47 @@ export default class Login extends React.Component {
                 .then(args => {
                     console.log(args);
                     AsyncStorage.setItem("userId", args.user.uid);
-                    this.props.navigation.navigate("TabNav");
+                    this.props.navigation.navigate("Home");
                 })
                 .catch(error => Alert.alert("Error", error.message));
         }
     }
 
+
     render() {
         return (
+
             <KeyboardAvoidingView
                 style={{ flex: 1, justifyContent: "center", padding: 32 }}
                 behavior="height"
                 enabled
             >
+                <View>
+                    <Text style={{ textAlign: "center", fontSize: 32, marginBottom: 40}}>
+                    TrocService !!
+                    </Text>
+                </View>
+
                 <Text style={{ textAlign: "center", fontSize: 20 }}>
-                    {this.state.isSignup ? "Sign up" : "Sign in"}
+                    {this.state.isSignup ? "Créer un compte" : "Se connecter"}
                 </Text>
                 <TextInput
                     value={this.state.email}
                     onChangeText={text => this.setState({ email: text })}
                     placeholder="Email"
+                    autoCapitalize="none"
                     style={{ paddingVertical: 16, marginVertical: 16, fontSize: 20 }}
                 />
                 <TextInput
                     value={this.state.password}
                     onChangeText={text => this.setState({ password: text })}
-                    placeholder="Password"
+                    placeholder="Mot de passe"
                     secureTextEntry
                     style={{ paddingVertical: 16, marginVertical: 16, fontSize: 20 }}
                 />
-                <Button onPress={this.tryLogin.bind(this)} title="Go!" />
+                <Button onPress={this.tryLogin.bind(this)} title={this.state.isSignup ? "Valider la création" : "Valider la connexion"}
+                
+                />
                 <TouchableOpacity
                     onPress={() => this.setState({ isSignup: !this.state.isSignup })}
                 >
@@ -83,7 +94,7 @@ export default class Login extends React.Component {
                             color: "blue"
                         }}
                     >
-                        {this.state.isSignup ? "Sign in" : "Sign up"}
+                        {this.state.isSignup ? "Se connecter" : "Créer un compte"}
                     </Text>
                 </TouchableOpacity>
             </KeyboardAvoidingView>
