@@ -1,0 +1,394 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200225.163117.7380.0.001.json",
+    "dumpEventTime": "2020-02-25T16:31:17Z",
+    "dumpEventTimeStamp": "1582644677341",
+    "processId": 7380,
+    "cwd": "D:\\Developement\\Projet\\AppliMobile\\AppliTroc",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Alex\\AppData\\Roaming\\npm\\\\node_modules\\expo-cli\\bin\\expo.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 6631156,
+        "nice": 0,
+        "sys": 8701500,
+        "idle": 88740062,
+        "irq": 3835750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5193406,
+        "nice": 0,
+        "sys": 2111046,
+        "idle": 96768000,
+        "irq": 170500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7776343,
+        "nice": 0,
+        "sys": 3735500,
+        "idle": 92560609,
+        "irq": 76703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5582000,
+        "nice": 0,
+        "sys": 2199937,
+        "idle": 96290515,
+        "irq": 64812
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 6772218,
+        "nice": 0,
+        "sys": 3914625,
+        "idle": 93385609,
+        "irq": 51343
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 6239015,
+        "nice": 0,
+        "sys": 2305390,
+        "idle": 95528046,
+        "irq": 38984
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7779609,
+        "nice": 0,
+        "sys": 3270937,
+        "idle": 93021906,
+        "irq": 49921
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5817812,
+        "nice": 0,
+        "sys": 2370078,
+        "idle": 95884562,
+        "irq": 31265
+      }
+    ],
+    "host": "PC-Alex"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff786ec1389",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff786ec57cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff786ec4778",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff786fb332b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7877b6f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78779ef91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff78766c85c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787674961",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787669fc3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787668794",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787689a65",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7873f6239",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787be2c6d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787b89aa3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787b9f2c4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787c47fe1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787b627fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787b627fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff787b627fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000011047f9ecb1",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 47661056,
+    "totalCommittedMemory": 47661056,
+    "usedMemory": 45426536,
+    "availableMemory": 2152737864,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047456,
+        "available": 32
+      },
+      "old_space": {
+        "memorySize": 38645760,
+        "committedMemory": 38645760,
+        "capacity": 38479560,
+        "used": 37318216,
+        "available": 1161344
+      },
+      "code_space": {
+        "memorySize": 1212416,
+        "committedMemory": 1212416,
+        "capacity": 960544,
+        "used": 952448,
+        "available": 8096
+      },
+      "map_space": {
+        "memorySize": 3411968,
+        "committedMemory": 3411968,
+        "capacity": 3211888,
+        "used": 3074800,
+        "available": 137088
+      },
+      "large_object_space": {
+        "memorySize": 3031040,
+        "committedMemory": 3031040,
+        "capacity": 2997768,
+        "used": 2997768,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 6.562,
+    "kernelCpuSeconds": 1.937,
+    "cpuConsumptionPercent": 0.149131,
+    "maxRss": 101511168,
+    "pageFaults": {
+      "IORequired": 91068,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 4894,
+      "writes": 23
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=C:\\",
+    "": "D:=D:\\Developement\\Projet\\AppliMobile\\AppliTroc",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Alex\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "PC-ALEX",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "configsetroot": "C:\\WINDOWS\\ConfigSetRoot",
+    "dp0": "C:\\Users\\Alex\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Alex",
+    "IDEA_INITIAL_DIRECTORY": "D:\\phpstorm\\PhpStorm 2019.2.4\\bin",
+    "LOCALAPPDATA": "C:\\Users\\Alex\\AppData\\Local",
+    "LOGONSERVER": "\\\\PC-ALEX",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\Alex\\OneDrive",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\Alex\\AppData\\Roaming\\npm\\node_modules\\expo-cli\\node_modules\\@expo\\xdl\\binaries\\windows\\adb;D:\\Developement\\Projet\\AppliMobile\\AppliTroc\\node_modules\\.bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\putty\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\wamp64\\bin\\php\\php7.3.5;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;D:\\node.js\\;D:\\Git\\cmd;D:\\Minikube;D:\\Developement\\Projet\\devops\\kubectl\\Minikube;C:\\Users\\Alex\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Microsoft VS Code\\bin;C:\\Users\\Alex\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Alex\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 94 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "5e03",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Alex\\AppData\\Local\\Temp",
+    "TERMINAL_EMULATOR": "JetBrains-JediTerm",
+    "TMP": "C:\\Users\\Alex\\AppData\\Local\\Temp",
+    "USERDOMAIN": "PC-ALEX",
+    "USERDOMAIN_ROAMINGPROFILE": "PC-ALEX",
+    "USERNAME": "Alex",
+    "USERPROFILE": "C:\\Users\\Alex",
+    "VBOX_MSI_INSTALL_PATH": "D:\\VM\\Virtual_box\\",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node",
+    "__INTELLIJ_COMMAND_HISTFILE__": "C:\\Users\\Alex\\.PhpStorm2019.2\\config\\terminal\\history\\history-104"
+  },
+  "sharedObjects": [
+    "D:\\node.js\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\WINDOWS\\System32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

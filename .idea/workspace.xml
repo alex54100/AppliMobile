@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03b535fb-547d-46ed-b583-3c9c2f13a99a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/screens/AddTroc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/MyTrocs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/AddTroc.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AddTroc.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
   <component name="ProjectId" id="1X20jo7jCoZDpaFdYD1HdKUBWKU" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Flechettes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunDashboard">
@@ -65,6 +61,8 @@
       <workItem from="1580717376190" duration="5131000" />
       <workItem from="1580730011871" duration="7873000" />
       <workItem from="1580803296299" duration="233000" />
+      <workItem from="1582618447669" duration="3961000" />
+      <workItem from="1582638816579" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="react / firebase">
       <created>1580229436657</created>
