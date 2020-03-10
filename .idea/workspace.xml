@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03b535fb-547d-46ed-b583-3c9c2f13a99a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/AddTroc.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AddTroc.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +63,9 @@
       <workItem from="1580730011871" duration="7873000" />
       <workItem from="1580803296299" duration="233000" />
       <workItem from="1582618447669" duration="3961000" />
-      <workItem from="1582638816579" duration="3251000" />
+      <workItem from="1582638816579" duration="3395000" />
+      <workItem from="1583741857479" duration="7656000" />
+      <workItem from="1583828919439" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="react / firebase">
       <created>1580229436657</created>
