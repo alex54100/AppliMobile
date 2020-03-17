@@ -1,6 +1,7 @@
+import 'react-native-gesture-handler';
 import * as React from 'react';
 import Firebase from "./firebaseInit";
-import { NavigationNativeContainer } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Login from "./screens/Login";
 import Home from "./screens/Home";
@@ -17,7 +18,7 @@ const Tab = createBottomTabNavigator();
 
 export default function App(){
   return(
-      <NavigationNativeContainer>
+      <NavigationContainer>
         <Tab.Navigator>
           <Tab.Screen name="Login" component={Login} />
           <Tab.Screen name="Home" component={Home} />
@@ -26,6 +27,6 @@ export default function App(){
 
 
         </Tab.Navigator>
-      </NavigationNativeContainer>
+      </NavigationContainer>
   );
 }
