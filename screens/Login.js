@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import * as firebase from "firebase";
 
+
 export default class Login extends React.Component {
     constructor(props) {
         super(props);
@@ -59,7 +60,7 @@ export default class Login extends React.Component {
             >
                 <View>
                     <Text style={{ textAlign: "center", fontSize: 32, marginBottom: 40}}>
-                    TrocService !!
+                    TrocService !
                     </Text>
                 </View>
 

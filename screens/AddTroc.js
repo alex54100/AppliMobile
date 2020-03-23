@@ -24,15 +24,15 @@ function AddTroc() {
     return(
         <View>
             <Appbar>
-                <Appbar.Content title={'Petits bouts de troc'} />
+                <Appbar.Content title={"Page d'ajout de troc"} />
             </Appbar>
             <ScrollView style={{ flex: 1 }}>
                 <Text>Liste des trocs </Text>
             </ScrollView>
-            <TextInput label={'Photo'} value={photo} onChangeText={setPhoto} />
-            <TextInput label={'Service demandé'} value={servicedemande} onChangeText={setServiceDemande} />
-            <TextInput label={'Service proposé'} value={servicepropose} onChangeText={setServicePropose} />
-            <Button onPress={() => addTroc()}>ajouter un petit bout de troc !</Button>
+            <TextInput label={'Ajouter une URL pour votre photo'} value={photo} onChangeText={setPhoto} />
+            <TextInput label={'Décrire le service vous demandez'} value={servicedemande} onChangeText={setServiceDemande} />
+            <TextInput label={'Décrire le service que vous proposez'} value={servicepropose} onChangeText={setServicePropose} />
+            <Button onPress={() => addTroc()}>Ajouter un troc !</Button>
         </View>
     );
 }
