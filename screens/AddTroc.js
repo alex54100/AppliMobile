@@ -10,6 +10,7 @@ function AddTroc() {
     const [servicedemande, setServiceDemande] = useState("");
     const [servicepropose, setServicePropose] = useState("");
     const ref = firebase.firestore().collection('Troc')
+
     async function addTroc() {
         await ref.add({
             photo: photo,

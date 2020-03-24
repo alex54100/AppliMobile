@@ -21,12 +21,12 @@ export default function App(){
   return(
       <NavigationContainer>
         <Tab.Navigator>
+
           <Tab.Screen name="Login" component={Login} />
           <Tab.Screen name="Home" component={Home} />
           <Tab.Screen name="ListTrocs" component={ListTrocs} />
           <Tab.Screen name="AddTroc" component={AddTroc} />
           <Tab.Screen name="Mytroc" component={MyTrocs} />
-
 
         </Tab.Navigator>
       </NavigationContainer>
