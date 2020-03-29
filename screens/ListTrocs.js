@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, FlatList} from "react-native";
+import {View, Text, FlatList, StyleSheet, Image} from "react-native";
 
 
 
@@ -25,12 +25,16 @@ class ListTrocs extends React.Component {
                 data={this.state.data}
                 renderItem={({item}) =>
 
-                <View>
-                    <Text style={{textAlign: "left", fontSize: 18, marginTop: 12, marginBottom: 4}}>Service demandé</Text>
+                <View style={styles.container}>
+                    <Text style={{textAlign: "left", fontSize: 20, marginTop: 12, marginBottom: 4}}>Service demandé</Text>
                     <Text>{item.servicedemande} </Text>
 
-                    <Text style={{textAlign: "left", fontSize: 18, marginTop: 12, marginBottom: 4}}>Service propose</Text>
+                    <Text style={{textAlign: "left", fontSize: 20, marginTop: 12, marginBottom: 4}}>Service propose</Text>
                     <Text>{item.servicepropose} </Text>
+                    <Text style={{textAlign: "left", fontSize: 20, marginTop: 12, marginBottom: 4}}>Photo du stroc</Text>
+                    <Image style={styles.imgTroc}
+                       source={{ uri: item.photo}}
+                    />
 
                 </View>}
                 keyExtractor={item => item.id}
@@ -41,3 +45,13 @@ class ListTrocs extends React.Component {
 
 export default ListTrocs;
 
+const styles = StyleSheet.create({
+    container: {
+        marginTop: 25,
+    },
+    imgTroc: {
+        width: 100,
+        height: 75,
+        marginTop: 10
+    },
+});

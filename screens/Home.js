@@ -7,7 +7,7 @@ export default class Home extends React.Component{
         return(
             <View>
                 <View>
-                    <Text style={{ padding: 30, fontSize: 18 }}>Bienvenue surTroc Service !</Text>
+                    <Text style={{ padding: 30, fontSize: 18 }}>Bienvenue sur Troc Service !</Text>
                     <Text style> Cette application a pour but de mettre en relation les utilisateurs afin que chacun propose ou répondent a différents trocs. </Text>
                 </View>
 
