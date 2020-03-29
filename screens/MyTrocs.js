@@ -9,13 +9,14 @@ export default class AddTroc extends React.Component {
 
 
             <View style={styles.container}>
-                <Text h1 style={{ padding: 20 }}>
+                <Text style={{ padding: 20 }}>
                     Mes trocs
                 </Text>
                 <FlatList
                     data={[
-                        {key: 'Je propose du bon pain'},
-                        {key: 'Je fais des pates au sucre'},
+
+                        {key: "Je propose des cours d'anglais"},
+                        {key: "Je demande que l'on répare mon évier"},
 
                     ]}
                     renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}

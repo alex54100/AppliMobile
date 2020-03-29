@@ -4,9 +4,11 @@
     <list default="true" id="03b535fb-547d-46ed-b583-3c9c2f13a99a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/AddTroc.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AddTroc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/ListTrocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/ListTrocs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/MyTrocs.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MyTrocs.js" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AppliMobile" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,8 +44,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firebase" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +99,8 @@
       <workItem from="1585003145633" duration="1096000" />
       <workItem from="1585006008263" duration="4379000" />
       <workItem from="1585036862175" duration="11712000" />
+      <workItem from="1585389704011" duration="8514000" />
+      <workItem from="1585440862461" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="react / firebase">
       <created>1580229436657</created>

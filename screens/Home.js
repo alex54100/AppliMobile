@@ -6,14 +6,19 @@ export default class Home extends React.Component{
     render() {
         return(
             <View>
-                <Text style={{ flex: 1, justifyContent: "center", padding: 32 }}>
-                    <View style={{ marginTop: 20 }}>
+                <View>
+                    <Text style={{ padding: 30, fontSize: 18 }}>Bienvenue surTroc Service !</Text>
+                    <Text style> Cette application a pour but de mettre en relation les utilisateurs afin que chacun propose ou répondent a différents trocs. </Text>
+                </View>
+
+
+                    <View style={{ marginTop: 200 }}>
 
                         <Button title='Mes trocs' onPress={() => {}}/>
                         <Button title='Rechercher un troc' onPress={() => {}}/>
 
                     </View>
-                </Text>
+
             </View>
         )
     }

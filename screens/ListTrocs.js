@@ -24,12 +24,13 @@ class ListTrocs extends React.Component {
             <FlatList
                 data={this.state.data}
                 renderItem={({item}) =>
-                <View>
-                    <Text style={{textAlign: "left", fontSize: 24, marginTop: 12, marginBottom: 4}}>
-                        Service demandé
-                    </Text>
 
+                <View>
+                    <Text style={{textAlign: "left", fontSize: 18, marginTop: 12, marginBottom: 4}}>Service demandé</Text>
                     <Text>{item.servicedemande} </Text>
+
+                    <Text style={{textAlign: "left", fontSize: 18, marginTop: 12, marginBottom: 4}}>Service propose</Text>
+                    <Text>{item.servicepropose} </Text>
 
                 </View>}
                 keyExtractor={item => item.id}
@@ -37,19 +38,6 @@ class ListTrocs extends React.Component {
         </View>
     }
 }
-
-
-{/*        <View>*/}
-{/*            <Text>{item.photo}</Text>*/}
-{/*            <Text>{item.servicedemande}</Text>*/}
-{/*            <Text>{item.servicedemande}</Text>*/}
-{/*        </View>)*/}
-{/*    }*/}
-{/*/>*/}
-{/*        </View>;*/}
-{/*    }*/}
-
-{/*}*/}
 
 export default ListTrocs;
 
