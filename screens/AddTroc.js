@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, View, ScrollView } from 'react-native';
+import {Text, View, ScrollView, StyleSheet} from 'react-native';
 import { Appbar, TextInput, Button } from 'react-native-paper';
 import firebase from '../firebaseInit.js'
 import '@firebase/firestore';
@@ -24,17 +24,28 @@ function AddTroc() {
 
     return(
         <View>
-            <Appbar>
+            <Appbar style={styles.container}>
                 <Appbar.Content title={"Page d'ajout de troc"} />
             </Appbar>
-            <ScrollView style={{ flex: 1 }}>
+            <View style={{ flex: 1 }}>
                 <Text>Liste des trocs </Text>
-            </ScrollView>
-            <TextInput label={'Ajouter une URL pour votre photo'} value={photo} onChangeText={setPhoto} />
-            <TextInput label={'Décrire le service vous demandez'} value={servicedemande} onChangeText={setServiceDemande} />
-            <TextInput label={'Décrire le service que vous proposez'} value={servicepropose} onChangeText={setServicePropose} />
-            <Button onPress={() => addTroc()}>Ajouter un troc !</Button>
+            </View>
+            <View>
+                <TextInput label={'Ajouter une URL pour votre photo'} value={photo} onChangeText={setPhoto} />
+                <TextInput label={'Décrire le service vous demandez'} value={servicedemande} onChangeText={setServiceDemande} />
+                <TextInput label={'Décrire le service que vous proposez'} value={servicepropose} onChangeText={setServicePropose} />
+                <Button style={styles.button} onPress={() => addTroc()}>Ajouter un troc !</Button>
+            </View>
         </View>
     );
 }
 export default AddTroc
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: "#4295F8",
+    },
+    button: {
+        color: "#4295F8",
+    },
+});
