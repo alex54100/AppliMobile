@@ -7,7 +7,7 @@ export default class Home extends React.Component{
         return(
             <View>
                 <View>
-                    <Text style={{ padding: 30, fontSize: 18 }}>Bienvenue sur Troc Service !</Text>
+                    <Text style={styles.titre}>Bienvenue sur Troc Service !</Text>
                     <Text> Cette application a pour but de mettre en relation les utilisateurs afin que chacun propose ou répondent a différents trocs. </Text>
 
                     <Text style={styles.container}> Afin de rechercher un troc qui te correspond, tu peux appuyer sur le bouton si dessous afin de voir tout les trocs disponible sur l'application ! </Text>
@@ -23,8 +23,14 @@ export default class Home extends React.Component{
 }
 
 const styles = StyleSheet.create({
+    titre: {
+        padding: 60,
+        fontSize: 20,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     container: {
         marginTop: 25,
         padding: 5,
-    }
+    },
 });
