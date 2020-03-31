@@ -1,34 +1,32 @@
 import * as React from 'react';
-import {Text, View, FlatList, StyleSheet } from "react-native";
+import {Text, View, StyleSheet} from "react-native";
 
 
 export default class AddTroc extends React.Component {
 
     render() {
-        return (
+        return <View>
+            <Text style={{textAlign: "center", fontSize: 32, marginTop: 40}}>
+                Mes trocs
+            </Text>
+                    <View style={styles.container}>
+                        <Text style={{textAlign: "left", fontSize: 20, marginTop: 12, marginBottom: 4}}>Service demandé</Text>
+                        <Text> Monter un meuble </Text>
+
+                        <Text style={{textAlign: "left", fontSize: 20, marginTop: 12, marginBottom: 4}}>Service propose</Text>
+                        <Text> Cours de violon </Text>
+
+                    </View>
+        </View>
 
 
-            <View style={styles.container}>
-                <Text style={{ padding: 20 }}>
-                    Mes trocs
-                </Text>
-                <FlatList
-                    data={[
 
-                        {key: "Je propose des cours d'anglais"},
-                        {key: "Je demande que l'on répare mon évier"},
 
-                    ]}
-                    renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
-                />
-            </View>
-        )
     }
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         paddingTop: 22
     },
     item: {
