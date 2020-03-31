@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Text, View, StyleSheet, Button} from "react-native";
 
 
-export default class AddTroc extends React.Component {
+export default class Mytroc extends React.Component {
 
     render() {
         return <View>
